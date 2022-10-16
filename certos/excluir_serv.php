@@ -8,7 +8,6 @@ include_once 'serv.php';
     );
 
     $servidor = Servidor::carregar($id_servidor);
-    
 
 ?>
 
@@ -17,7 +16,7 @@ include_once 'serv.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Excluir servidor</title>
 </head>
 <body>

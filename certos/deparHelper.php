@@ -19,7 +19,7 @@ function cadastrarDepar(){
     $depar = new Depar($nome);
     $depar->inserir();
 
-    header("Location:index.php");
+    header("Location:indexCerto.php");
 }
 function getDepars(){
     try{

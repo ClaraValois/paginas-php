@@ -12,10 +12,13 @@ include_once 'deparHelper.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
     <title>Cadastro Servidores</title>
     <script src="script.js" defer></script>
-    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+
+<h1>Cadastrar Servidor</h1>
 
 <legend>Formulário de cadastro</legend>
         <form name="formCad" method="POST" action="servHelper.php" target="_self" onsubmit="return adicionarDados()">
@@ -38,7 +41,6 @@ include_once 'deparHelper.php';
             <?php
                 $derpars = getDepars();
                     foreach($depars as $depar){
-                        echo  '<tr>';
                         echo ' <option value="'.$depar->id_area.'">'.$depar->depar.'</option>';
                     }
                  

@@ -24,7 +24,7 @@ include_once 'certos/deparHelper.php';
       <h1> Cadastrar Servidor</h1>
     <div class="tudo">
       <div class="bloco1">
-      <form name="formCad" method="POST" action="servHelper.php" target="_self" onsubmit="return adicionarDados()">
+      <form name="formCad" method="POST" action="servHelper1.php" target="_self" onsubmit="return adicionarDados()">
           <ul class="title">
             <a href="/">
               <li>Login</li>
@@ -79,7 +79,6 @@ include_once 'certos/deparHelper.php';
             <span>Senha</span>
             <i></i>
           </div>
-          
           <div class="box">
           <span>Nível</span>
             <select name = "nivel" required>
@@ -87,8 +86,8 @@ include_once 'certos/deparHelper.php';
               <option value = "Servidor"> Servidor </option>
             <i></i>
           </div>
+
         </form>
-        
         <div class="submit">
           <button class="btn">Confirmar</button>
         </div>

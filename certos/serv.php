@@ -65,7 +65,6 @@ class Servidor{
             echo 'Erro; ' . $ex->getMessage();
         }
     }
-    
     function excluir(){
         $banco = new Banco();
         $conexao = $banco->conectar();

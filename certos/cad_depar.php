@@ -21,7 +21,8 @@ include_once 'deparHelper.php';
     <fieldset>
         <legend>Formulário de cadastro</legend>
         <form name="formCad" method="POST" action="deparHelper.php" target="_self" onsubmit="return adicionarDados()">
-            <fieldset>
+           
+        <fieldset>
                 <input style="display: none" name="tipo" id="tipo" type="text" value="cadastrar">
                 <legend>Dados do departamento</legend>
                 <label for="nome">Nome: </label>
