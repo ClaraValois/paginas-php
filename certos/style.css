@@ -1,0 +1,190 @@
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 2em auto;
+    font: .9em/1.2 Arial, Helvetica, sans-serif;
+  }
+  
+  #servers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #servers td,
+  #servers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #servers tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #servers tr:hover {
+    background-color: #ddd;
+  }
+  
+  #servers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  input[type=text],
+  select {
+    width: 50%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  input[type=number] {
+    width: 5%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  input[type="radio"] {
+  
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  input[type=date] {
+    width: 30%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  input[type=email] {
+    width: 50%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  input[type=tel] {
+    width: 33%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-right: 2px;
+    margin-top: 2px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  input[type=reset] {
+    background-color: #FF0000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 2px;
+  }
+  
+  input[type=reset]:hover {
+    background-color: #DC143C;
+  }
+  
+  fieldset {
+    border-radius: 4px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  div {
+    overflow: auto;
+    height: 36vh;
+  }
+  
+  a:link,
+  a:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  .excluir:hover,
+  .excluir:active {
+    background-color: red;
+  }
+  
+  .excluir {
+    background-color: #f44336;
+  }
+  
+  .editar {
+    background-color: orange;
+  }
+  
+  .editar:hover,
+  .editar:active {
+    background-color: orangered;
+  }
+  
+  
+  #btn_excluir {
+    background-color: #FF0000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 2px;
+  }
+  
+  #btn_excluir:disabled {
+    background-color: white;
+    color: gray;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+    margin-top: 2px;
+  }
+  
+  input[type=checkbox]:checked+label {
+    background-color: green;
+    color: white;
+  }
+  
+  input[type=checkbox]+label {
+    background-color: red;
+    color: white;
+  }
